@@ -1,0 +1,13 @@
+
+
+<mat-form-field appearance="fill" style= "width: 300px;">
+  <mat-label>Entrada de texto</mat-label>
+  <textarea matInput (input)= "cambioTexto($any($event.target.value))"
+  [(ngModel)] = "texto" style= "resize: none;  height: 200px;">
+  </textarea>
+</mat-form-field>
+
+
+
+
+
